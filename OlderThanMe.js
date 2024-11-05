@@ -13,6 +13,8 @@ class Person {
 // Example usage:
 const alice = new Person("Alice", 20);
 const bob = new Person("Bob", 25);
+const anna = new Person("Anna", 26);
 
-console.log(alice.olderThan(bob)); 
-console.log(bob.olderThan(alice)); 
+console.log(alice.olderThan(bob));
+console.log(bob.olderThan(alice));
+console.log(anna.olderThan(bob)); 
